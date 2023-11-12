@@ -1,0 +1,21 @@
+
+[global]
+server.socket_host: '127.0.0.1'
+server.socket_port: 8080
+
+[/]
+tools.staticdir.root : os.path.abspath(os.getcwd())
+
+[/res/css]
+tools.staticdir.on : True
+tools.staticdir.dir : './res/css'
+tools.staticfile.content_types['css'] = 'text/css'
+
+[/res/js]
+tools.staticdir.on : True
+tools.staticdir.dir : './res/js'
+tools.staticfile.content_types['js'] = 'application/javascript'
+
+[/res/images]
+tools.staticdir.on : True
+tools.staticdir.dir : './res/images'

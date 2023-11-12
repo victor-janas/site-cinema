@@ -1,0 +1,13 @@
+# dans ce fichier, le type doit être en premier, avant les autres paramètres...
+# pour l'instant, on ne peut avoir le même code pour SQLITE, cf configDB_sav.py
+type : MySQL
+nombase : cinema
+host : localhost
+user : root
+pass : 
+port : 3306
+
+##type : SQLITE
+##fichier : etudiants.db
+
+
