@@ -1,5 +1,7 @@
 Pour faire fonctionner le site il faut au préalable avoir téléchargé sur sa machine le logiciel mysql
 
+Si un dossier est manquant, décompresser le zip qui contient la bonne infrastructure et lancer à partir de celui-ci
+
 Pour lancer l'application, il suffit d'executer le fichier Web.py. Sur la configuration avec identifiant : root et pas de mot de passe. Sinon adapté dans le document configDB.txt, il est conseillé d'être déjà connecté à phpmyadmin/mysql car la toute première connection ne fonctionne pas directement avec le login et mot de passe admin.
 
 
